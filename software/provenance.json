@@ -1,0 +1,107 @@
+{
+  "source_protocol_sha256": "56bbcb7d537166cc615a46bda5efd28ac29dc95964036b405cc39df53d06bfde",
+  "source_completion_sha256": "b6d9622c75604115a1de2798a76d333ea28eb121e53f76607d291ef33599fe41",
+  "source_scalar_file_sha256": {
+    "patient_metrics.csv": "7c9751546fd6a4f9e32df0fec54111a335a80a6aad746dbe4834bd043f80fd6f",
+    "paired_dice_contrasts.csv": "2e21adf02a4fcfe48005f009fabd812b4ed02005db013dd69a27d6db0d744b7f",
+    "summary_metrics.csv": "455dec1c267fefb8ebbdd469fd6a6546167d40feca58a692896d8178f3c45b41"
+  },
+  "frozen_source": [
+    {
+      "name": "cascade.py",
+      "original_protocol_path": "src/conjseg/cascade.py",
+      "sha256": "011084b232e0a9de85d45989dde201dd175bb3f988e70fd827c7741baeec9142"
+    },
+    {
+      "name": "public_mechanism_v1.py",
+      "original_protocol_path": "src/conjseg/public_mechanism_v1.py",
+      "sha256": "d3479de84c6fd7d4e234d38dcd5466d0d741d67a941bb09019bdb9f1c9f951b1"
+    },
+    {
+      "name": "public_external_v1.py",
+      "original_protocol_path": "src/conjseg/public_external_v1.py",
+      "sha256": "0d9b4abaa3441d545ea23e47b415df495da9252d6d9dda1eaf1de99626b7aaac"
+    },
+    {
+      "name": "public_external_controls_v1.py",
+      "original_protocol_path": "src/conjseg/public_external_controls_v1.py",
+      "sha256": "2060aa8dc99a9012a453f54350d5373442d3a85c466ac3543e940b7d0dab5563"
+    },
+    {
+      "name": "stats.py",
+      "original_protocol_path": "src/conjseg/stats.py",
+      "sha256": "5046371a4ccc370d5fcc12c1f902dd2f3c702ff63d1a8aea97a94b307e3a22c8"
+    },
+    {
+      "name": "metrics.py",
+      "original_protocol_path": "src/conjseg/metrics.py",
+      "sha256": "0c05bad7a5c601e80b4ac507ee5c8b025233e9767d07a386d71fa1a2719e2e73"
+    }
+  ],
+  "statistics_extraction": [
+    {
+      "function": "_finite_vector",
+      "source": "stats.py",
+      "line": 37,
+      "end_line": 41,
+      "source_segment_sha256": "aafe7d845432b363463388e80550292b5d946753ac2d29023fb39f443d19f188"
+    },
+    {
+      "function": "bootstrap_mean_ci",
+      "source": "stats.py",
+      "line": 44,
+      "end_line": 57,
+      "source_segment_sha256": "dab601466ff55923268c4e81c8f85c379c17772ba0ba00197aadd1a080bde980"
+    },
+    {
+      "function": "paired_bootstrap",
+      "source": "stats.py",
+      "line": 60,
+      "end_line": 67,
+      "source_segment_sha256": "74a6e512aad923872e33939d09e35149fc7ff729e0f6c2ad7492b42bdfb7b46f"
+    },
+    {
+      "function": "sign_flip_pvalue",
+      "source": "stats.py",
+      "line": 70,
+      "end_line": 88,
+      "source_segment_sha256": "885e7ffbdaeb13f30ff043fefba5a28a8e1fb3c306d9d6444cecbdc4373e940c"
+    },
+    {
+      "function": "holm_adjust",
+      "source": "stats.py",
+      "line": 91,
+      "end_line": 102,
+      "source_segment_sha256": "235ed1f946fc15567e094dc17deefb355c33ffb11270a91e19a6373a94833a53"
+    },
+    {
+      "function": "wilson_rate_ci",
+      "source": "stats.py",
+      "line": 105,
+      "end_line": 114,
+      "source_segment_sha256": "963016b8c5bd4bb5aac163b5e05ec6b851ef075e14a81d7069f86ea154e80e32"
+    }
+  ],
+  "original_inference_environment": {
+    "python": "3.13.13",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_bytes": 47664529408,
+    "packages": {
+      "numpy": "2.4.3",
+      "Pillow": "11.3.0",
+      "scipy": "1.17.1",
+      "pandas": "2.3.3",
+      "torch": "2.11.0+cu130",
+      "torchvision": "0.26.0+cu130",
+      "segmentation-models-pytorch": "0.5.0",
+      "timm": "1.0.30"
+    },
+    "environment_installed_or_modified": false
+  },
+  "scope": "Scalar replay plus mapped-array synthetic reconstruction; the four saved public examples are documented separately under data/qualitative/.",
+  "licensing": "No new license or third-party redistribution authorization is asserted.",
+  "access_status": "Code and coded scalar records in this repository; institutional photographs, annotations and trained weights unavailable for sharing or requests.",
+  "parent_provenance_sha256": "a6ff611c103496eb97196f89f607ef13537d8de62d219239c6329c11285e00a3"
+}

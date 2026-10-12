@@ -1,0 +1,9 @@
+Paired contrast,Δ Dice (pp),95% CI (pp),Holm p
+Direct fine C − Direct fine F,0.265,−0.421–1.026,0.495275
+Direct fine C − Direct fine B,2.664,1.933–3.502,0.000400
+Direct fine C − Direct fine K,1.264,0.758–1.780,0.000400
+Direct fine C − U-Net 768 evaluated at 512,76.861,75.000–78.589,0.000400
+Corrected cascade C − Original cascade C,2.624,2.239–3.025,0.000400
+Direct fine C − Corrected cascade C,4.434,2.514–6.622,0.000400
+U-Net 768 evaluated at 512 − U-Net 768,0.030,2.98 × 10−4–0.079,0.062797
+Direct interaction C − B − K + F,3.663,2.753–4.642,0.000400

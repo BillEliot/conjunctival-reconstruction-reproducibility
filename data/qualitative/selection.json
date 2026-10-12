@@ -1,0 +1,105 @@
+{
+  "schema": "conjseg_github_qualitative_v1",
+  "case_count": 4,
+  "source_case_count": 212,
+  "threshold": 0.5,
+  "selection_before_high_resolution_visual_inspection": true,
+  "cases": [
+    {
+      "panel": "A",
+      "role": "whole_image_improvement",
+      "selection_field": "corrected_minus_original",
+      "eligible_count": 103,
+      "selection_median": 0.023794937200399047,
+      "rule": "Closest to subgroup median; lexicographic source ID breaks ties",
+      "expected": {
+        "patient_id": "italy_78",
+        "all_five_single_fullframe": true,
+        "original_dice": 0.8556342765634178,
+        "original_empty": 0,
+        "corrected_dice": 0.8794292137638169,
+        "corrected_empty": 0,
+        "direct_dice": 0.8794292137638169,
+        "direct_empty": 0,
+        "corrected_minus_original": 0.023794937200399047,
+        "direct_minus_corrected": 0.0
+      },
+      "case": {
+        "patient_id": "italy_78",
+        "country": "italy"
+      }
+    },
+    {
+      "panel": "B",
+      "role": "partial_proposal_residual",
+      "selection_field": "direct_minus_corrected",
+      "eligible_count": 73,
+      "selection_median": 0.037336399930711583,
+      "rule": "Closest to subgroup median; lexicographic source ID breaks ties",
+      "expected": {
+        "patient_id": "india_11",
+        "all_five_single_fullframe": false,
+        "original_dice": 0.7519679312072672,
+        "original_empty": 0,
+        "corrected_dice": 0.8140559966825882,
+        "corrected_empty": 0,
+        "direct_dice": 0.8513923966132998,
+        "direct_empty": 0,
+        "corrected_minus_original": 0.062088065475320975,
+        "direct_minus_corrected": 0.037336399930711583
+      },
+      "case": {
+        "patient_id": "india_11",
+        "country": "india"
+      }
+    },
+    {
+      "panel": "C",
+      "role": "whole_image_decline",
+      "selection_field": "corrected_minus_original",
+      "eligible_count": 22,
+      "selection_median": -0.007211725892528775,
+      "rule": "Closest to subgroup median; lexicographic source ID breaks ties",
+      "expected": {
+        "patient_id": "india_7",
+        "all_five_single_fullframe": true,
+        "original_dice": 0.906659330371441,
+        "original_empty": 0,
+        "corrected_dice": 0.9000366022126628,
+        "corrected_empty": 0,
+        "direct_dice": 0.9000366022126628,
+        "direct_empty": 0,
+        "corrected_minus_original": -0.0066227281587781794,
+        "direct_minus_corrected": 0.0
+      },
+      "case": {
+        "patient_id": "india_7",
+        "country": "india"
+      }
+    },
+    {
+      "panel": "D",
+      "role": "empty_cascade_nonempty_direct",
+      "selection_field": "direct_dice",
+      "eligible_count": 7,
+      "selection_median": 0.8234487914278594,
+      "rule": "Closest to subgroup median; lexicographic source ID breaks ties",
+      "expected": {
+        "patient_id": "italy_117",
+        "all_five_single_fullframe": false,
+        "original_dice": 0.0,
+        "original_empty": 1,
+        "corrected_dice": 0.0,
+        "corrected_empty": 1,
+        "direct_dice": 0.8234487914278594,
+        "direct_empty": 0,
+        "corrected_minus_original": 0.0,
+        "direct_minus_corrected": 0.8234487914278594
+      },
+      "case": {
+        "patient_id": "italy_117",
+        "country": "italy"
+      }
+    }
+  ]
+}

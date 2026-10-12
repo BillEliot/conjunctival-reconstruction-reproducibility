@@ -1,0 +1,14 @@
+{
+  "source_dataset_doi": "10.21227/t5s2-4j73",
+  "source_license": "CC-BY-4.0",
+  "original_export_archive_sha256": "e1458ca50d5509c97531aedb992ce2984eb1fff34a1c7373becf7f64aa12017b",
+  "original_selection_sha256": "f898ff1f9264e2de18625962f3eacc9a0043d231daee7439e400ecd34c867317",
+  "source_record_count": 4,
+  "rgb_and_mask_files_byte_preserved": true,
+  "image_canvas": [
+    800,
+    1067
+  ],
+  "new_model_inference": false,
+  "selection_metadata_sanitization": "Retained public record labels, exact rules and expected scores; removed unused original archive paths and server-protocol identifiers."
+}

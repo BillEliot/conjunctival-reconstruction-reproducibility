@@ -1,0 +1,9 @@
+Procedure,Mean Dice,95% CI,Surface Dice
+U-Net 768,0.9244,0.9144–0.9338,0.9738
+U-Net 1024,0.9277,0.9183–0.9365,0.9761
+DeepLabV3+ 768,0.9215,0.9106–0.9313,0.9707
+SegFormer 768,0.9206,0.9110–0.9298,0.9686
+Original cascade F,0.9299,0.9220–0.9374,0.9719
+Original cascade B,0.9301,0.9219–0.9379,0.9726
+Original cascade K,0.9299,0.9220–0.9375,0.9726
+Original cascade C,0.9301,0.9220–0.9379,0.9720

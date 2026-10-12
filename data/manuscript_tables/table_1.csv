@@ -1,0 +1,9 @@
+Configuration,Architecture / encoder,Input (px),Training loss
+U-Net 768,U-Net / ResNet-34,768,Segmentation
+U-Net 1024,U-Net / ResNet-34,1024,Segmentation
+DeepLabV3+ 768,DeepLabV3+ / ResNet-34,768,Segmentation
+SegFormer 768,SegFormer / MiT-B0,768,Segmentation
+Fine F,U-Net / ResNet-34,512,Segmentation
+Fine B,U-Net / ResNet-34,512,Segmentation + boundary
+Fine K,U-Net / ResNet-34,512,Segmentation + consistency
+Fine C,U-Net / ResNet-34,512,Segmentation + boundary + consistency

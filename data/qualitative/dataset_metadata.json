@@ -1,0 +1,173 @@
+{
+  "data": {
+    "id": "10.21227/t5s2-4j73",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.21227/t5s2-4j73",
+      "prefix": "10.21227",
+      "suffix": "t5s2-4j73",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Dimauro, Giovanni",
+          "givenName": "Giovanni Dimauro",
+          "familyName": "Dimauro",
+          "affiliation": [
+            "Università degli Studi di Bari, Bari, Italy"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Maglietta, Rosalia",
+          "givenName": "Rosalia Maglietta",
+          "familyName": "Maglietta",
+          "affiliation": [
+            "Italian National Council of Research (CNR) - STIIMA"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Bai, Thulasi",
+          "givenName": "Thulasi Bai",
+          "familyName": "Bai",
+          "affiliation": [
+            "Electronics and Communication Engineering Department, KCG College of Technology, Chennai, India"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Kasiviswanathan, Sivachandar",
+          "givenName": "Sivachandar Kasiviswanathan",
+          "familyName": "Kasiviswanathan",
+          "affiliation": [
+            "Electronics and Communication Engineering Department, KCG College of Technology, Chennai, India"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Eyes-defy-anemia"
+        }
+      ],
+      "publisher": "IEEE DataPort",
+      "container": {},
+      "publicationYear": 2022,
+      "subjects": [],
+      "contributors": [],
+      "dates": [],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Anemia is a condition in which the oxygen-carrying capacity of red blood cells is insufficient to meet the body's physiological needs and affects billions of people worldwide. An early diagnosis of this disease could prevent the advancement of other disorders. Currently, traditional methods used to detect anemia consist of venipuncture, which requires a patient to frequently visit laboratories. Therefore, anemia diagnosis using noninvasive and cost effective methods is an open challenge. The pallor of the fingertips, palms, nail beds, and eye conjunctiva can be observed to establish whether a patient suffers from anemia.&nbsp;In response to this challenge, we studied several algorithm devoted to anemia detection. We also collected a new dataset that contain eye conjunctiva photos of Indian and Italian patients, made available to the Scientific Community on IEEE Dataport.Photos were captured by a smartphone equipped with a suitable device, whose details were previously presented in the literature by our team. Using photos of the eye, the palpebral or whole (palpebral and forniceal) conjunctiva were manually segmented.&nbsp;The dataset Eyes-defy-anemia contains 218 images of eyes, in particular conjunctivas, which can be used for research on the diagnosis/estimation of anemia based on the pallor of conjunctiva.The same images can be effectively used to study segmentation algorithms of conjunctivas or exposed parts of the sclera and iris. All images of the dataset are accompanied by segmented elements (palpebral, forniceal and palpebral + forniceal conjunctivas) useful both to directly correlate the pallor with the value of Hb, to assess the performance of segmentation algorithms. Each image is accompanied by essential information such as the value of Hb measured in the laboratory, age, and sex of the patient, listed in xlsx files.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMjEyMjcvVDVTMi00SjczPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RGltYXVybywgR2lvdmFubmkgRGltYXVybzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+R2lvdmFubmkgRGltYXVybzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5EaW1hdXJvPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+VW5pdmVyc2l0w6AgZGVnbGkgU3R1ZGkgZGkgQmFyaSwgQmFyaSwgSXRhbHk8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5NYWdsaWV0dGEsIFJvc2FsaWEgTWFnbGlldHRhPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Sb3NhbGlhIE1hZ2xpZXR0YTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5NYWdsaWV0dGE8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5JdGFsaWFuIE5hdGlvbmFsIENvdW5jaWwgb2YgUmVzZWFyY2ggKENOUikgLSBTVElJTUE8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5CYWksIFRodWxhc2kgQmFpPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5UaHVsYXNpIEJhaTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5CYWk8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5FbGVjdHJvbmljcyBhbmQgQ29tbXVuaWNhdGlvbiBFbmdpbmVlcmluZyBEZXBhcnRtZW50LCBLQ0cgQ29sbGVnZSBvZiBUZWNobm9sb2d5LCBDaGVubmFpLCBJbmRpYTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkthc2l2aXN3YW5hdGhhbiwgU2l2YWNoYW5kYXIgS2FzaXZpc3dhbmF0aGFuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5TaXZhY2hhbmRhciBLYXNpdmlzd2FuYXRoYW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+S2FzaXZpc3dhbmF0aGFuPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+RWxlY3Ryb25pY3MgYW5kIENvbW11bmljYXRpb24gRW5naW5lZXJpbmcgRGVwYXJ0bWVudCwgS0NHIENvbGxlZ2Ugb2YgVGVjaG5vbG9neSwgQ2hlbm5haSwgSW5kaWE8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5FeWVzLWRlZnktYW5lbWlhPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPklFRUUgRGF0YVBvcnQ8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkRhdGFzZXQ8L3Jlc291cmNlVHlwZT4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiIHJpZ2h0c0lkZW50aWZpZXI9ImNjLWJ5LTQuMCIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPkFuZW1pYSBpcyBhIGNvbmRpdGlvbiBpbiB3aGljaCB0aGUgb3h5Z2VuLWNhcnJ5aW5nIGNhcGFjaXR5IG9mIHJlZCBibG9vZCBjZWxscyBpcyBpbnN1ZmZpY2llbnQgdG8gbWVldCB0aGUgYm9keSdzIHBoeXNpb2xvZ2ljYWwgbmVlZHMgYW5kIGFmZmVjdHMgYmlsbGlvbnMgb2YgcGVvcGxlIHdvcmxkd2lkZS4gQW4gZWFybHkgZGlhZ25vc2lzIG9mIHRoaXMgZGlzZWFzZSBjb3VsZCBwcmV2ZW50IHRoZSBhZHZhbmNlbWVudCBvZiBvdGhlciBkaXNvcmRlcnMuIEN1cnJlbnRseSwgdHJhZGl0aW9uYWwgbWV0aG9kcyB1c2VkIHRvIGRldGVjdCBhbmVtaWEgY29uc2lzdCBvZiB2ZW5pcHVuY3R1cmUsIHdoaWNoIHJlcXVpcmVzIGEgcGF0aWVudCB0byBmcmVxdWVudGx5IHZpc2l0IGxhYm9yYXRvcmllcy4gVGhlcmVmb3JlLCBhbmVtaWEgZGlhZ25vc2lzIHVzaW5nIG5vbmludmFzaXZlIGFuZCBjb3N0IGVmZmVjdGl2ZSBtZXRob2RzIGlzIGFuIG9wZW4gY2hhbGxlbmdlLiBUaGUgcGFsbG9yIG9mIHRoZSBmaW5nZXJ0aXBzLCBwYWxtcywgbmFpbCBiZWRzLCBhbmQgZXllIGNvbmp1bmN0aXZhIGNhbiBiZSBvYnNlcnZlZCB0byBlc3RhYmxpc2ggd2hldGhlciBhIHBhdGllbnQgc3VmZmVycyBmcm9tIGFuZW1pYS4mYW1wO25ic3A7SW4gcmVzcG9uc2UgdG8gdGhpcyBjaGFsbGVuZ2UsIHdlIHN0dWRpZWQgc2V2ZXJhbCBhbGdvcml0aG0gZGV2b3RlZCB0byBhbmVtaWEgZGV0ZWN0aW9uLiBXZSBhbHNvIGNvbGxlY3RlZCBhIG5ldyBkYXRhc2V0IHRoYXQgY29udGFpbiBleWUgY29uanVuY3RpdmEgcGhvdG9zIG9mIEluZGlhbiBhbmQgSXRhbGlhbiBwYXRpZW50cywgbWFkZSBhdmFpbGFibGUgdG8gdGhlIFNjaWVudGlmaWMgQ29tbXVuaXR5IG9uIElFRUUgRGF0YXBvcnQuUGhvdG9zIHdlcmUgY2FwdHVyZWQgYnkgYSBzbWFydHBob25lIGVxdWlwcGVkIHdpdGggYSBzdWl0YWJsZSBkZXZpY2UsIHdob3NlIGRldGFpbHMgd2VyZSBwcmV2aW91c2x5IHByZXNlbnRlZCBpbiB0aGUgbGl0ZXJhdHVyZSBieSBvdXIgdGVhbS4gVXNpbmcgcGhvdG9zIG9mIHRoZSBleWUsIHRoZSBwYWxwZWJyYWwgb3Igd2hvbGUgKHBhbHBlYnJhbCBhbmQgZm9ybmljZWFsKSBjb25qdW5jdGl2YSB3ZXJlIG1hbnVhbGx5IHNlZ21lbnRlZC4mYW1wO25ic3A7VGhlIGRhdGFzZXQgRXllcy1kZWZ5LWFuZW1pYSBjb250YWlucyAyMTggaW1hZ2VzIG9mIGV5ZXMsIGluIHBhcnRpY3VsYXIgY29uanVuY3RpdmFzLCB3aGljaCBjYW4gYmUgdXNlZCBmb3IgcmVzZWFyY2ggb24gdGhlIGRpYWdub3Npcy9lc3RpbWF0aW9uIG9mIGFuZW1pYSBiYXNlZCBvbiB0aGUgcGFsbG9yIG9mIGNvbmp1bmN0aXZhLlRoZSBzYW1lIGltYWdlcyBjYW4gYmUgZWZmZWN0aXZlbHkgdXNlZCB0byBzdHVkeSBzZWdtZW50YXRpb24gYWxnb3JpdGhtcyBvZiBjb25qdW5jdGl2YXMgb3IgZXhwb3NlZCBwYXJ0cyBvZiB0aGUgc2NsZXJhIGFuZCBpcmlzLiBBbGwgaW1hZ2VzIG9mIHRoZSBkYXRhc2V0IGFyZSBhY2NvbXBhbmllZCBieSBzZWdtZW50ZWQgZWxlbWVudHMgKHBhbHBlYnJhbCwgZm9ybmljZWFsIGFuZCBwYWxwZWJyYWwgKyBmb3JuaWNlYWwgY29uanVuY3RpdmFzKSB1c2VmdWwgYm90aCB0byBkaXJlY3RseSBjb3JyZWxhdGUgdGhlIHBhbGxvciB3aXRoIHRoZSB2YWx1ZSBvZiBIYiwgdG8gYXNzZXNzIHRoZSBwZXJmb3JtYW5jZSBvZiBzZWdtZW50YXRpb24gYWxnb3JpdGhtcy4gRWFjaCBpbWFnZSBpcyBhY2NvbXBhbmllZCBieSBlc3NlbnRpYWwgaW5mb3JtYXRpb24gc3VjaCBhcyB0aGUgdmFsdWUgb2YgSGIgbWVhc3VyZWQgaW4gdGhlIGxhYm9yYXRvcnksIGFnZSwgYW5kIHNleCBvZiB0aGUgcGF0aWVudCwgbGlzdGVkIGluIHhsc3ggZmlsZXMuPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "https://ieee-dataport.org/documents/eyes-defy-anemia",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2022",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2022-01-31T11:04:43.000Z",
+      "registered": "2022-01-31T11:04:43.000Z",
+      "published": "2022",
+      "updated": "2022-12-10T08:56:01.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ieee.dataport",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "ieee",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.21227/t5s2-4j73",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1002/hsr2.73219",
+            "type": "dois"
+          },
+          {
+            "id": "10.1016/j.bspc.2022.104489",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

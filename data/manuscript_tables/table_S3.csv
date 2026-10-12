@@ -1,0 +1,11 @@
+Paired contrast,Δ Dice (pp),95% CI (pp),Holm p
+Original cascade C − U-Net 768,69.833,66.966–72.505,0.000500
+Original cascade C − U-Net 1024,69.833,66.966–72.505,0.000500
+Original cascade C − Original cascade F,3.140,1.922–4.463,0.000500
+Original cascade C − Original cascade K,1.887,1.197–2.606,0.000500
+Original cascade C − Equal-weight coarse/cascade fusion,63.846,60.949–66.618,0.000500
+Original cascade C − DeepLabV3+ 768,69.826,66.960–72.501,0.000500
+Original cascade C − SegFormer 768,69.810,66.940–72.491,0.000500
+Original cascade C − Original cascade B,6.310,4.889–7.833,0.000500
+Original cascade C − Direct fine C,−7.058,−9.245–−5.138,0.000500
+Cascade interaction C − B − K + F,5.057,3.781–6.417,0.000500

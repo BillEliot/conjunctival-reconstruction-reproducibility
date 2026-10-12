@@ -1,0 +1,27 @@
+{
+  "files": {
+    "cases/A/corrected_prediction.png": "c07b7c3c34e69315ccbbc4661f842a347aacb7c538a72d407e557c17610dfd94",
+    "cases/A/direct_prediction.png": "c07b7c3c34e69315ccbbc4661f842a347aacb7c538a72d407e557c17610dfd94",
+    "cases/A/original_prediction.png": "e7b8e5b6064cbbf07879692926d19a988b5eec4774f88410605434790a1a3f50",
+    "cases/A/reference.png": "ed5132b2b0dc9e079012e2a697cd1522bbc1dd8ec2ab3b076bc602b487cd4c36",
+    "cases/A/rgb.png": "926ef2386cea56a2cb23690e8a72fcf65db9249d4688430d72031eee69240137",
+    "cases/B/corrected_prediction.png": "69cb4d44c155b27a26432af3d857e5625a1209f7692943f7676b30a7cf3be39d",
+    "cases/B/direct_prediction.png": "466f94cb65e87c2e1ad7e7c2a25c5d5f2a0269b558c066b69322568215289904",
+    "cases/B/original_prediction.png": "6fea96ca51375d2d78f83a222ec657c6022585ac8e8208a8c5f815f1d0b39d80",
+    "cases/B/reference.png": "432618aae242ed024f446fde7003b851fcd5295ff036a02b5d05beae4cc17888",
+    "cases/B/rgb.png": "52857cf456db49170de93fd377aefb6c76e5362933052354b0bff0c65d4ce82e",
+    "cases/C/corrected_prediction.png": "ebb3e4763b55f803985bdcaa7eaa78ab99fea35d085c0ccd1d8726888e84f9a2",
+    "cases/C/direct_prediction.png": "ebb3e4763b55f803985bdcaa7eaa78ab99fea35d085c0ccd1d8726888e84f9a2",
+    "cases/C/original_prediction.png": "639131f36e0263f5758211faa8148a440c1966d4cdf206e78d370ad81015a583",
+    "cases/C/reference.png": "772e6d2ce6b8eee94ddf840901128441779d4c83355cdbcfb14bbe859884c3f8",
+    "cases/C/rgb.png": "84ad6437bb015fab24bec1aec8eb88bef267c4a9dc2ce31f8625342af59a2404",
+    "cases/D/corrected_prediction.png": "73e6f9e41c887689b4f73101406669542a2885d95a210b29e7747359e579e390",
+    "cases/D/direct_prediction.png": "87ab3b6d1408d6d18199aab40042ee3b2049a787e2d8a5e3178382cb9e403f8f",
+    "cases/D/original_prediction.png": "73e6f9e41c887689b4f73101406669542a2885d95a210b29e7747359e579e390",
+    "cases/D/reference.png": "c5b463d39fabd6741c8e2a1dd5b62b3d7a254ea4e4251eba283bbc4b7917552f",
+    "cases/D/rgb.png": "e68c382b94e52ea1fa13db678befb5de66194228685334ab906444094c763ece",
+    "dataset_metadata.json": "138fff291cbd73ac209e024a92b25fde6e93ff439c3399320e6fd359d1288b78",
+    "PROVENANCE.json": "a74055e87a985250629807a6fafb63fb224884a4c2a51bd73c5c9ad0dcf7a3b4",
+    "selection.json": "b4062608874021ddeed0b627573dacad8faf3c195a48f5b791d7c27f83a83faa"
+  }
+}

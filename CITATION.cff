@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these reproducibility materials, cite this software version."
+title: "Improving Conjunctival Segmentation in Smartphone Images by Preserving Whole-Image Predictions: Reproducibility Software"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Yang
+    given-names: Zejia
+  - family-names: Wu
+    given-names: Jiaze
+  - family-names: Xu
+    given-names: Chunjun
+  - family-names: Liu
+    given-names: Wenbin
+  - family-names: Shao
+    given-names: Fei
+keywords:
+  - conjunctival segmentation
+  - smartphone imaging
+  - probability reconstruction
+  - reproducibility
+abstract: "Statistical replay, synthetic reconstruction checks and figure materials for fixed-checkpoint comparisons of original cascade, whole-image-preserving cascade and direct fine inference."

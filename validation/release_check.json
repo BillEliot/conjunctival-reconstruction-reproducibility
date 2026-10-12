@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "status": "passed",
+  "validation_date": "2026-10-12",
+  "environment": {
+    "platform": "Windows",
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.3",
+    "pillow": "11.3.0"
+  },
+  "validation_command": "python reproduce.py --figures",
+  "executed_from_extracted_zip": true,
+  "tested_input_manifest_sha256": "d371daa659ccdc7226c61b732b32b22a0c318dff6a5228762c87890ffbdabca8",
+  "final_code_and_inputs_identical_to_tested_copy": true,
+  "post_test_changes": [
+    "README wording",
+    "reproducibility scope wording",
+    "this validation receipt",
+    "release manifest"
+  ],
+  "statistics": {
+    "integer_overlap_rows_recomputed": 3180,
+    "mean_dice_confidence_intervals_recomputed": 15,
+    "paired_contrasts_recomputed": 8,
+    "bootstrap_replicates_per_vector": 10000,
+    "signflip_replicates_per_contrast": 20000,
+    "statistics_seed": 20261011,
+    "case_count": 212,
+    "methods": 15,
+    "eligible_identity_receipts": 125,
+    "synthetic_scenarios_passed": 5
+  },
+  "figures": {
+    "figure_1_inference_paths": {
+      "rgb_pixels_identical_to_manuscript_figure": true,
+      "dimensions_pixels": [
+        3779,
+        2551
+      ],
+      "panel_alignment": "PASS"
+    },
+    "figure_2_synthetic_reconstruction": {
+      "rgb_pixels_identical_to_manuscript_figure": true,
+      "dimensions_pixels": [
+        3779,
+        2102
+      ],
+      "panel_alignment": "PASS"
+    },
+    "figure_3_internal_and_public": {
+      "rgb_pixels_identical_to_manuscript_figure": true,
+      "dimensions_pixels": [
+        3779,
+        2858
+      ],
+      "panel_alignment": "PASS"
+    },
+    "figure_4_reconstruction_controls": {
+      "rgb_pixels_identical_to_manuscript_figure": true,
+      "dimensions_pixels": [
+        3779,
+        2692
+      ],
+      "panel_alignment": "PASS"
+    },
+    "figure_5_real_segmentation": {
+      "rgb_pixels_identical_to_manuscript_figure": true,
+      "dimensions_pixels": [
+        3779,
+        3118
+      ],
+      "panel_alignment": "PASS"
+    }
+  },
+  "public_qualitative_records": 4,
+  "full_canvas_prediction_mask_dice_values_checked": 12,
+  "public_qualitative_pngs_without_exif_or_text_metadata": 20,
+  "byte_preserved_original_scalar_code_and_input_files": 24,
+  "citation_yaml_and_required_fields_checked": true,
+  "new_model_training_or_inference": false,
+  "institutional_images_annotations_or_weights_included": false,
+  "dependencies_installed_during_validation": false,
+  "scope": "Scalar replay, synthetic checks and figure reproduction. Original full probability arrays and neural-network inference were not rerun."
+}

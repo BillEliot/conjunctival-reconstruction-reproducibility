@@ -1,0 +1,6 @@
+Paired contrast,Δ Dice (pp),95% CI (pp),Holm p
+Original cascade C − U-Net 768,69.833,66.966–72.505,0.000250
+Original cascade C − U-Net 1024,69.833,66.966–72.505,0.000250
+Original cascade C − Original cascade F,3.140,1.922–4.463,0.000250
+Original cascade C − Original cascade K,1.887,1.197–2.606,0.000250
+Original cascade C − Equal-weight coarse/cascade fusion,63.846,60.949–66.618,0.000250
